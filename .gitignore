@@ -1,0 +1,40 @@
+﻿# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+bin/
+**/bin/
+obj/
+**/obj/
+
+# IDE and operating system files
+.vs/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+secrets.json
+**/secrets.json
+**/appsettings*.json
+
+# Logs and test output
+*.log
+coverage/
+TestResults/
+
+# Local databases and backups
+*.db
+*.sqlite
+*.bak
+
+# User-specific settings
+*.user
+*.suo

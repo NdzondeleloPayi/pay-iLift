@@ -1,0 +1,143 @@
+
+.auth-error {
+  color: #b42318;
+  font-size: 0.9rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.auth-button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+/* Shared styling for Login and Offer a Lift pages */
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background: #f5f7f6;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 480px;
+  padding: 36px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+}
+
+.auth-brand {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #16805d;
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.auth-card h1 {
+  margin: 0 0 10px;
+  color: #18352c;
+  font-size: 2rem;
+}
+
+.auth-subtitle,
+.auth-card > p {
+  color: #66736d;
+  line-height: 1.6;
+}
+
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.auth-card label {
+  margin-top: 8px;
+  color: #263b33;
+  font-weight: 600;
+}
+
+.auth-card input,
+.auth-card select,
+.auth-card textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #cfd8d3;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #18352c;
+  font: inherit;
+}
+
+.auth-card input:focus,
+.auth-card select:focus,
+.auth-card textarea:focus {
+  outline: 2px solid #16805d;
+  outline-offset: 1px;
+  border-color: #16805d;
+}
+
+.auth-card .auth-button,
+.auth-card form button {
+  width: 100%;
+  margin-top: 14px;
+  padding: 13px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #16805d;
+  color: #ffffff;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.auth-card .auth-button:hover,
+.auth-card form button:hover {
+  background: #11694c;
+}
+
+.auth-card .auth-button:disabled,
+.auth-card form button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.auth-error {
+  color: #b42318;
+  font-size: 0.9rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.auth-footer {
+  margin-top: 24px;
+}
+
+.auth-card a:not(.auth-brand) {
+  color: #16805d;
+}
+
+.back-home {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+@media (max-width: 520px) {
+  .auth-page {
+    padding: 20px 14px;
+  }
+
+  .auth-card {
+    padding: 24px 20px;
+  }
+
+  .auth-card h1 {
+    font-size: 1.7rem;
+  }
+}
